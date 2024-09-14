@@ -1,0 +1,23 @@
+const catalogoDoFilme = document.querySelectorAll("section img");
+
+function verCaixaDeVideo() {
+    document.querySelector(".caixa-do-video").setAttribute('style', 'display:block');
+}
+
+
+catalogoDoFilme.forEach(function(img) {
+    img.addEventListener('click', verCaixaDeVideo);
+});
+
+
+
+
+if (button[0]) {
+    button[0].addEventListener('click', () => {
+        let acao = Array.from(lista).slice(0, 3);
+        // Mapeia os elementos para strings HTML e junta-os
+        let acaoHTML = acao.map(element => element.outerHTML).join('');
+        document.querySelector('section').innerHTML = acaoHTML;
+    });
+}
+

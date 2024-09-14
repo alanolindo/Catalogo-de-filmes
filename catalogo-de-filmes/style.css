@@ -1,0 +1,91 @@
+body {
+  color: white;
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div img {
+    height: 250px;
+    width: 200px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+section {
+    display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; 
+justify-content: center;
+z-index: 2;
+}
+
+div h3{
+  padding: 20px;
+  text-align: center;
+}
+
+nav{
+  padding:20px;
+  align-items: center;
+  flex-direction: row;
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+button{
+
+  padding: 10px;
+  width: 150px;
+  background-color: rgb(129, 17, 17);
+  border: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
+
+
+.caixa-do-video{
+  height: 500px;
+  width: 800px;
+  background-color: rgba(48, 45, 45, 1);
+  margin-left: 350px;
+  z-index: 1;
+  position: absolute;
+  display: none;
+}
+
+.cancelar {
+  z-index: 1;
+}
+
+.iframe{
+  width: 560px;
+  height: 315px;
+  border: solid 20px;
+  border-color: rgb(129, 17, 17);
+  z-index: 1;
+  position: absolute;
+}
+
+.btn-fechar {
+  position: absolute; /* Garante que ele esteja posicionado corretamente */
+  top: 10px; /* Posição a partir do topo */
+  right: 10px; /* Posição a partir da direita */
+  width: 30px; /* Largura do botão */
+  height: 30px; /* Altura do botão */
+  cursor: pointer; /* Adiciona um cursor de pointer para indicar que é clicável */
+  z-index: 1000; /* Garante que fique na frente de outros elementos */
+  background-color: white;
+}
+
+.btnVoltarAoInicio{
+ width: 150px;
+ height: 50px;
+ border-radius: 5px;
+ cursor: pointer;
+ font-size: 17px;
+
+}
+
+
